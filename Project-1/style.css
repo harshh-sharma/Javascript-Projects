@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+h1{
+    margin-bottom: 25px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:orange;
+}
+p{
+    font-size: 20px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 0px 10px ;
+}
+#container {
+
+    display: flex;
+    height: 100px ;
+    max-width: 500px  ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    border-radius: 10px ;
+    /* border-image: linear-gradient(to top ,blue , red); */
+    padding: 10px 15px ;
+    background-color: black;
+}
+.button {
+    width: 75px;
+    height: 75px ;
+    margin: 5px;
+    border-radius: 10px ;
+    /* border: 2px solid white; */
+    box-shadow: 3px 3px grey;
+    border-radius: 50%;
+    cursor: pointer;
+    
+   
+}
+#aqua {
+    background-color:aqua;
+}
+#yellow {
+    background-color: yellow;
+}
+#blue {
+    background-color: blue;
+}
+#purple{
+    background-color: blueviolet;
+ 
+}
+#outerContainer{
+    padding: 5px ;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 234, 0),red);
+}
+
+@media  screen and (min-width:500px) {
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
